@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM "hibernate-configuration-3.0.dtd" >
+<hibernate-configuration>
+	<session-factory>
+
+		<property name="hibernate.dialect">
+			org.hibernate.dialect.PostgreSQLDialect
+		</property>
+
+		<property name="hibernate.connection.driver_class">
+			org.postgresql.Driver
+		</property>
+
+		<property name="hibernate.connection.url">
+			jdbc:postgresql://localhost/vadimDB
+		</property>
+
+		<property name="hibernate.connection.username">
+			postgres
+		</property>
+
+		<property name="hibernate.connection.password">
+			postgres
+		</property>
+
+		<!-- Kad kurti bazę tiesiai iš programos -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+		<!-- Rodyti SQL kodą -->
+		<property name="hibernate.show_sql">false</property>
+
+		<!-- <mapping resource="Darbuotojas.hbm.xml"/> -->
+		<mapping class="codeAcademyVadim.DB.Login" />
+		<mapping class="codeAcademyVadim.DB.Destytojas_ir_Egzaminas" />
+		<mapping class="codeAcademyVadim.DB.Egzaminas" />
+		<mapping class="codeAcademyVadim.DB.Studentas" />
+		<mapping class="codeAcademyVadim.DB.Statistika" />
+	</session-factory>
+</hibernate-configuration>
