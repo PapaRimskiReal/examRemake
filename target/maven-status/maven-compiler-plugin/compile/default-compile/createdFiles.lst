@@ -1,0 +1,13 @@
+examRemake\Service\Destytojas_ir_EgzaminasService.class
+examRemake\domain\Login.class
+examRemake\domain\Studentas.class
+examRemake\domain\Statistika.class
+examRemake\domain\Destytojas_ir_Egzaminas.class
+examRemake\Service\impl\Destytojas_ir_EgzaminasServiceImpl.class
+examRemake\config\WebApplicationContextConfig.class
+examRemake\domain\repository\impl\InMemoryDestytojas_ir_EgzaminasRepository.class
+examRemake\domain\Egzaminas.class
+examRemake\config\DispatcherServletInitializer.class
+examRemake\config\RootApplicationContextConfig.class
+examRemake\controller\HomePageController.class
+examRemake\domain\repository\Destytojas_ir_EgzaminasRepository.class
